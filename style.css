@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #413A3A;
+    color: white;
+}
+
+
+
+/* Logo */ 
+
+header .logo h1 {
+    font-size: 3rem;
+    font-family: "Inspiration", cursive;
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Main Section */
+
+main {
+    padding: 20px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-info .main-img {
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.main-info .info-text {
+    width: 50%;
+}
+
+.pizza-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #413A3A;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.pizza-section .pizza-info {
+    width: 50%;
+    text-align: center;
+}
+
+.pizza-section .pizza-info h3 {
+    margin-top: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.pizza-section .pizza-info p {
+    font-size: 20px;
+}
+
+.pizza-section .pizza-info h4{
+    font-size: 25px;
+}
+
+.pizza-section .pizza-info h5 {
+    color: rgb(197, 30, 30);
+    font-size: 1.4rem;
+}
+
+.pizza-section .pizza-img {
+    width: 40%;
+}
+
+
+
+.parking-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.parking-info .parking-text {
+    width: 50%;
+}
+
+.parking-info .parking-text ul{
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.parking-info .parking-img {
+    width: 40%;
+    margin-right: 70px;
+}
+
+
+
+
+/* Footer */
+
+
+footer {
+    background-color: #413A3A;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 2rem;
+    font-family: "Inspiration", cursive;
+}
+
+footer ul {
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin-left: 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
