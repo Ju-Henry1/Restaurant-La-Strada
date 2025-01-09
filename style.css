@@ -254,10 +254,19 @@ footer ul li a {
     }
 
     .main-info .main-img {
-        margin: 20px;
         margin-left: 0px;
     }
 
+    .pizza-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .pizza-section .pizza-info {
+        font-size: 10px;
+    }
     .pizza-section .pizza-info h3 {
         font-size: 12px;
         margin-top: 20px;
@@ -273,7 +282,12 @@ footer ul li a {
     }
 
     .pizza-section .pizza-info h5 {
-        font-size: 1rem;
+        font-size: 10px;
+    }
+
+    .pizza-section .pizza-img {
+        width: 30%; 
+        height: 30%;
     }
 
     .parking-info .parking-text {
@@ -283,6 +297,7 @@ footer ul li a {
     .parking-info .parking-img {
         margin-right: 20px;
         margin-left: 10px;
+        width: 30%;
     }
 
     footer .logo h1 {
